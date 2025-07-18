@@ -1,0 +1,28 @@
+body {
+  background: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lyrics {
+  overflow: hidden;
+  max-height: 100px;
+  transition: max-height 0.5s ease;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
+
+.lyrics.expanded {
+  max-height: 1000px;
+}
+
+.read-more-btn {
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #0d6efd;
+  color: white;
+}
